@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    <form action="/rackets/<%= racket.id %>?_method=PUT" method="POST">
+    <input type="text" name="name" value="<%= racket.name %>">
+    <button type="submit">Update Racket</button>
+    </form>
+</body>
+</html>

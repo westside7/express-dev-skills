@@ -1,0 +1,16 @@
+* {
+    background-color: lightsteelblue;
+}
+
+.df {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.df button{
+    color: rgb(255, 0, 43);
+}
+
+li {
+    list-style: none;
+}
